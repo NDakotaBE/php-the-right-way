@@ -4,25 +4,23 @@ isChild: true
 anchor:  windows_setup
 ---
 
-## Windows Setup {#windows_setup_title}
+## Installatie (Windows) {#windows_setup_title}
 
-You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere.
+Je kan de binaries downloaden van [windows.php.net/download][php-downloads]. Na het extracten van PHP is het aangeraden om het [PATH][windows-path] in te stellen op de hoofdmap van je PHP folder (waar je php.exe staat), opdat je PHP kan uitvoeren van gelijk waar.
 
-For learning and local development, you can use the built in webserver with PHP 5.4+ so you don't need to worry about
-configuring it. If you would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such
-as the [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] and [WAMP][wamp] will
-help get a Windows development environment up and running fast. That said, these tools will be a little different from
-production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Om te leren en lokaal te ontwikkelen, kan je de ingebouwde webserver van PHP 5.4+ gebruiken. Hierdoor dien je geen rekening
+te houden met configuratie. 
+Als je liever een "all-in-one" optie hebt, die een volledige webserver en MySQL server bevat, dan zijn tools zoals [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] en [WAMP][wamp] aan te raden.
+Deze tools helpen met ontwikkeling op de Windows en laten je snel starten met ontwikkelen.
+Dit gezegd zijnde zullen deze tools iets anders zijn op een productie omgeving wanneer je ontwikkelingsomgeving Windows is en je productie omgeving Linux.
 
-If you need to run your production system on Windows, then IIS7 will give you the most stable and best performance. You
-can use [phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with
-FastCGI built in and ready to go, you just need to configure PHP as a handler. For support and additional resources
-there is a [dedicated area on iis.net][php-iis] for PHP.
+Wanneer je een productie omgeving op wil zetten op Windows, dan zal IIS7 je de meeste stabiele en meest performate omgeving opleveren. Je kunt [phpmanager][phpmanager] (een gebruikersinterface voor IIS7) gebruiken om de configuratie en het beheer van PHP
+simpel te maken.
+IIS7 komt met FastCGI ingebouwd, waardoor je enkel PHP dient te configureren als handler. Voor meer informatie is er een [aparte omgeving op iis.net][php-iis] voor PHP.
 
-Generally running your application on different environment in development and production can lead to strange bugs popping up when you go
-live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a [Virtual Machine](/#virtualization_title).
+Wanneer je applicatie in verschillende omgevingen staat voor productie en ontwikkeling kunnen vreemde bugs opduiken wanneer je live gaat. Wanneer dit het geval is, kun je een [Virtuele Machine](/#virtualization_title) overwegen.
 
-Chris Tankersley has a very helpful blog post on what tools he uses to do [PHP development using Windows][windows-tools].
+Chris Tankersley heeft een interessante blog post over welke tools hij gebruikt om [PHP te ontwikkelen op Windows][windows-tools].
 
 [easyphp]: http://www.easyphp.org/
 [phpmanager]: http://phpmanager.codeplex.com/
