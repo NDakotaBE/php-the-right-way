@@ -26,7 +26,7 @@ Het [MacPorts] Project is een initiatief van de open-source community.
 Deze ontwikkelden een systeem om het compileren, installeren en upgraden van op command-line, X11 of Aqua gebaseerde opensource software op macOS makkelijk te gebruiken.
 
 MacPorts ondersteunt voorgecompileerde binaries, opdat je niet elke dependency dient te hercompileren van de bronbestanden.
-Het maakt het vooral gemakkelijk als je geen enkel pakket op je systeem geinstalleerd hebt.
+Het maakt het vooral gemakkelijk als je geen enkel pakket op je systeem geïnstalleerd hebt.
 
 Op dit moment kun je `php54`, `php55`, `php56`, `php70` of `php71` installeren door het commando `port install` te gebruiken.
 Bijvoorbeeld:
@@ -47,14 +47,14 @@ meerdere applicaties/projecten hebt, waar je verschillende PHP versies voor nodi
 
 Een andere populaire optie is [php-osx.liip.ch]. Deze voorziet een installatie methode waar maar 1 commando voor nodig is.
 Deze optie laat je toe om PHP versies van 5.3 tot 7.3 te installeren. 
-Het vervangt de PHP binaries, die standaard door Apple geinstalleerd zijn niet, maar installeert alles op een aparte locatie 
+Het vervangt de PHP binaries, die standaard door Apple geïnstalleerd zijn niet, maar installeert alles op een aparte locatie 
 [/usr/local/php5]
 
 ### Compileren van de broncode
 
 Een andere optie, dewelke je meer controle geeft over de versie van PHP die je installeert, is om [ze zelf te compileren][mac-compile].
 In dit geval, moet je er zeker voor zorgen dat je ofwel, [Xcode][xcode-gcc-substitution] of Apple's vervanging
-["Command Line Tools for XCode"] geinstalleerd hebt.
+["Command Line Tools for XCode"] geïnstalleerd hebt.
 
 ### All-in-One Installers
 

@@ -14,7 +14,7 @@ Voor elk team, CMS of framework waar men in werkt is een standaard mappenstructu
 Wanneer men echter een project alleen start is het kiezen van een structuur moeilijk.g.
 
 [Paul M. Jones] heeft onderzoek gevoerd naar standaard mappen structuren van duizenden PHP Github projecten. Hij heeft een standaard bestands en mappensturtuur opgemaakt, de [Standard PHP Package Skeleton], gebaseerd op zijn onderzoek. In deze 
-structuur zou de `DocumentRoot` moeten wijzen naar `public/`, unit tests in de `tests/` ma en externe libraries, zoals deze geinstalleerd door [composer], horen in de  `vendor/` map. Voor andere bestanden en mappen is het volgen van [Standard PHP Package Skeleton] interessant.
+structuur zou de `DocumentRoot` moeten wijzen naar `public/`, unit tests in de `tests/` ma en externe libraries, zoals deze geïnstalleerd door [composer], horen in de  `vendor/` map. Voor andere bestanden en mappen is het volgen van [Standard PHP Package Skeleton] interessant.
 
 [Paul M. Jones]: https://twitter.com/pmjones
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
