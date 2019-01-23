@@ -47,12 +47,11 @@ meerdere applicaties of projecten hebt, waar je verschillende PHP versies voor n
 
 Een andere populaire optie is [php-osx.liip.ch]. Deze voorziet een installatie methode waar maar 1 commando voor nodig is.
 Deze optie laat je toe om PHP versies van 5.3 tot 7.3 te installeren. 
-Het vervangt de PHP binaries, die standaard door Apple geïnstalleerd zijn niet, maar installeert alles op een aparte locatie 
-[/usr/local/php5]
+Het vervangt de PHP binaries, die standaard door Apple geïnstalleerd zijn niet, maar doet dit alles op een aparte locatie: [/usr/local/php5].
 
 ### Compileren van de broncode
 
-Een andere optie, dewelke je meer controle geeft over de versie van PHP die je installeert, is om [ze zelf te compileren][mac-compile].
+Een andere optie, wat je meer controle geeft over de versie van PHP die je installeert, is om [ze zelf te compileren][mac-compile].
 In dit geval, moet je er zeker voor zorgen dat je ofwel, [Xcode][xcode-gcc-substitution] of Apple's vervanging
 ["Command Line Tools for XCode"] geïnstalleerd hebt.
 
