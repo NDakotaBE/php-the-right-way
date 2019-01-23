@@ -24,8 +24,8 @@ Je kunt veranderen van Homebrew PHP versies door je `PATH` variabele aan te pass
 
 Het [MacPorts] Project is een initiatief van de open-source community om een gemakkelijk te gebruiken systeem te ontwikkelen om het compileren, instaleren en upgraden van op command-line, X11 of Aqua gebaseerde opensource software op het OS X OS.
 
-MacPorts ondersteunt voorgecompileerde binaries, opdat je niet elke dependency dien te hercompileren van de bronbestanden.
-Het maakt het vooral gemakkelijkals je geen enkel pakket op je systeem geinstalleerd hebt..
+MacPorts ondersteunt voorgecompileerde binaries, opdat je niet elke dependency dient te hercompileren van de bronbestanden.
+Het maakt het vooral gemakkelijk als je geen enkel pakket op je systeem geinstalleerd hebt.
 
 Op dit moment kun je `php54`, `php55`, `php56`, `php70` of `php71` installeren door het commando `port install` te gebruiken.
 Bijvoorbeeld:

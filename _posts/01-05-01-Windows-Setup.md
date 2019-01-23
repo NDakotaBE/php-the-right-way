@@ -8,9 +8,9 @@ anchor:  windows_setup
 
 Je kan de binaries downloaden van [windows.php.net/download][php-downloads]. Na het extracten van PHP is het aangeraden om het [PATH][windows-path] in te stellen op de hoofdmap van je PHP folder (waar je php.exe staat), opdat je PHP kan uitvoeren van gelijk waar.
 
-Om te leren en lokaal te ontwikkelen, kan je de ingebouwde webserver van PHP 5.4+ gebruiken. Hierdoor dien je geen rekening
+Om te leren en lokaal te ontwikkelen, kan je de ingebouwde web server van PHP 5.4+ gebruiken. Hierdoor dien je geen rekening
 te houden met configuratie. 
-Als je liever een "all-in-one" optie hebt, die een volledige webserver en MySQL server bevat, dan zijn tools zoals [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] en [WAMP][wamp] aan te raden.
+Als je liever een "all-in-one" optie hebt, die een volledige web server en MySQL server bevat, dan zijn tools zoals [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] en [WAMP][wamp] aan te raden.
 Deze tools helpen met ontwikkeling op Windows en laten je snel starten met ontwikkelen.
 Dit gezegd zijnde zullen deze tools iets anders zijn op een productie omgeving wanneer je ontwikkelingsomgeving Windows is en je productie omgeving Linux.
 
