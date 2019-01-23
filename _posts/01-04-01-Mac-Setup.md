@@ -6,12 +6,12 @@ anchor:  mac_setup
 
 ## Installatie op macOS {#mac_setup_title}
 
-macOS komt met PHP geïnstalleerd, maar deze is meestal een lagere versie dan de laatste stabiele release. Er zijn meerdere
-manieren om de laatste versie van PHP te installeren op macOS.
+PHP is standaard geïnstalleerd op macOS, maar is meestal een lagere versie dan de laatste stabiele release.
+Er zijn meerdere manieren om de laatste versie van PHP te installeren op macOS.
 
 ### Installeer PHP via Homebrew
 
-[Homebrew] is een package manager voor macOS die je helpt om gemakkelijk PHP te installereren samen met verschillende extensies.
+[Homebrew] is een package manager die je helpt om gemakkelijk PHP te installereren samen met verschillende extensies.
 De Homebrew code repository voorziet "formules" voor PHP 5.6, 7.0, 7.1 en 7.2. Installeer de laatste versie met het commando:
 
 ```
@@ -22,7 +22,8 @@ Je kunt veranderen van Homebrew PHP versies door je `PATH` variabele aan te pass
 
 ### Installeer PHP via MacPorts
 
-Het [MacPorts] Project is een initiatief van de open-source community om een gemakkelijk te gebruiken systeem te ontwikkelen om het compileren, instaleren en upgraden van op command-line, X11 of Aqua gebaseerde opensource software op het OS X OS.
+Het [MacPorts] Project is een initiatief van de open-source community. 
+Deze ontwikkelden een systeem om het compileren, installeren en upgraden van op command-line, X11 of Aqua gebaseerde opensource software op macOS makkelijk te gebruiken.
 
 MacPorts ondersteunt voorgecompileerde binaries, opdat je niet elke dependency dient te hercompileren van de bronbestanden.
 Het maakt het vooral gemakkelijk als je geen enkel pakket op je systeem geinstalleerd hebt.
