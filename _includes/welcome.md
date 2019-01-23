@@ -3,7 +3,7 @@
 Er is veel oude informatie op het web beschikbaar met verwarrende gebruikers tot gevolg.
 Dit zorgt er voor dat nieuwe PHP gebruikers bad practices toepassen of onveilige code implementeren.
 _PHP: The Right Way_ is een gemakkelijk leesbare referentie voor populaire PHP coding standards,
-lins naar betrouwbare tutorials en wat bijdragers zien als best practices op het huidige tijdstip.
+links naar betrouwbare tutorials en wat bijdragers zien als best practices op het huidige tijdstip.
 
 _Er is geen eenduidige manier om PHP te gebruiken_. Het doel van deze website is om nieuwe PHP ontwikkelaars
 te introduceren in onderwerpen die ze maar zouden ontdekken als het te laat is. Een bijkomend doel is ervaren
@@ -11,8 +11,8 @@ pro's nieuwe ideeën te geven over de onderwerpen die ze al jaren doen, zonder e
 Deze website zal je niet vertellen welke tools je moet gebruiken, maar geeft je meerdere opties en zal waar mogelijk 
 het verschil uitleggen in behandeling en use-cases
 
-Dit document veranderd en zal upgedated worden met meer interessane informatie en voorbeelden als ze breschikbaar 
-worden.
+Dit document veranderd en zal upgedate worden met meer interessante informatie en voorbeelden als 
+ze beschikbaar worden.
 
 ## Vertalingen
 
