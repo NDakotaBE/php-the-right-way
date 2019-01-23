@@ -6,7 +6,7 @@ anchor:  builtin_web_server
 
 ## Ingebouwde web server {#builtin_web_server_title}
 
-Met PHP5.4 of hoger, kun je PHP leren zonder een volledige web server te installeren of configureren.
+Met PHP5.4 of hoger, kun je PHP leren, zonder een volledige web server te installeren of configureren.
 Om de server te starten kun je het onderstaande commando uitvoeren in de hoofdmap van je project:
 
 {% highlight console %}
