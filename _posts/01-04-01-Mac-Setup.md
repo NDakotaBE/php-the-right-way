@@ -58,9 +58,8 @@ In dit geval, moet je er zeker voor zorgen dat je ofwel, [Xcode][xcode-gcc-subst
 ### All-in-One Installers
 
 De bovengenoemde oplossingen voorzien meestal PHP zelf en zorgen niet voor zaken zoals Apache, Nginx of een SQL server.
-"All-in-one" oplossingen zoals [MAMP][mamp-downloads] en [XAMPP][xampp] zullen deze andere software paketten installeren voor je
-en deze allemaal samenbrengen.
-Dit heeft natuurlijk als nadeel dat flexibiliteit hier in het gedrang kan komen.
+"All-in-one" oplossingen zoals [MAMP][mamp-downloads] en [XAMPP][xampp] zullen deze andere software paketten automatisch installeren en samenbrengen.
+Dit heeft natuurlijk als nadeel dat flexibiliteit in het gedrang kan komen.
 
 [Homebrew]: https://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
