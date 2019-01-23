@@ -1,18 +1,20 @@
 ---
-title:   Common Directory Structure
+title:   Gebruikelijke mappenstructuur
 isChild: true
 anchor:  common_directory_structure
 ---
 
-## Common Directory structure {#common_directory_structure_title}
+## Gebruikelijke mappenstructuur {#common_directory_structure_title}
 
-A common question among those starting out with writing programs for the web is, "where do I put my stuff?" Over the years, this answer has consistently been "where the `DocumentRoot` is." Although this answer is not complete, it's a great place to start.
+Een gebruikelijke vraag bij diegene die starten met web ontwikkeling is, "waar plaats ik mijn code?". Door de jaren heen wordt deze vraag consistent beantwoord door "waar de `DocumentRoot` staat.". Dit antwoord is niet compleet, maar is wel een goede start.
 
-For security reasons, configuration files should not be accessible by a site's visitors; therefore, public scripts are kept in a public directory and private configurations and data are kept outside of that directory.
+Voor de veiligheid dienen configuratie bestanden niet in een map gezet te worden die door een bezoeker van een website beschikbaar is. Hierdoor worden publieke scripts in een publieke map gehouden en private configuraties en data wordt buiten deze map gehouden.
 
-For each team, CMS, or framework one works in, a standard directory structure is used by each of those entities. However, if one is starting a project alone, knowing which filesystem structure to use can be daunting.
+Voor elk team, CMS of framework waar men in werkt is een standaard mappenstructuur van toepassing.
+Wanneer men echter een project alleen start is het kiezen van een structuur moeilijk.g.
 
-[Paul M. Jones] has done some fantastic research into common practices of tens of thousands of github projects in the realm of PHP. He has compiled a standard file and directory structure, the [Standard PHP Package Skeleton], based on this research. In this directory structure, `DocumentRoot` should point to `public/`, unit tests should be in the `tests/` directory, and third party libraries, as installed by [composer], belong in the `vendor/` directory. For other files and directories, abiding by the [Standard PHP Package Skeleton] will make the most sense to contributors of a project.
+[Paul M. Jones] heeft onderzoek gevoerd naar standaard mappen structuren van duizenden PHP Github projecten. Hij heeft een standaard bestands en mappensturtuur opgemaakt, de [Standard PHP Package Skeleton], gebaseerd op zijn onderzoek. In deze 
+structuur zou de `DocumentRoot` moeten wijzen naar `public/`, unit tests in de `tests/` ma en externe libraries, zoals deze geinstalleerd door [composer], horen in de  `vendor/` map. Voor andere bestanden en mappen is het volgen van [Standard PHP Package Skeleton] interessant.
 
 [Paul M. Jones]: https://twitter.com/pmjones
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
