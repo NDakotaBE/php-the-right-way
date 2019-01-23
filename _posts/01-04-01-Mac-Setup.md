@@ -40,8 +40,8 @@ Je kan ook het commando `select` gebruiken om je actieve PHP versie te verandere
 
 ### Installeer PHP via phpbrew
 
-[phpbrew] is een tool om meerder versies van PHP te installeren en te configureren. Dit is vooral gemakkelijk wanneer je 
-meerdere applicaties/projecten hebt, waar je verschillende PHP versies voor nodig hebt, zonder gebruik te maken van virtuele machines.
+[Phpbrew] is een tool om meerdere versies van PHP te installeren en te configureren. Dit is vooral gemakkelijk wanneer je 
+meerdere applicaties of projecten hebt, waar je verschillende PHP versies voor nodig hebt, zonder gebruik te maken van virtuele machines.
 
 ### Installeer PHP via Liip's binary installer
 
