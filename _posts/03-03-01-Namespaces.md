@@ -5,10 +5,11 @@ anchor:  namespaces
 
 ## Namespaces {#namespaces_title}
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP
-code might use the same class name as another. When both libraries are used in the same namespace, they collide
-and cause trouble.
+Zoals hierboven vermeld, heeft de PHP community veel ontwikkelaars die veel code maken. 
+Dit zorgt ervoor dat een library's PHP code eenzelfde klasse kan gebruiken als een ander.
+Wanneer beide libraries gebruikt worden in dezelfde namespace botsen ze en zorgen ze voor problemen.
 
+_Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_
 _Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating
 system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise,
 two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
