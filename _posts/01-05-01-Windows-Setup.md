@@ -11,7 +11,7 @@ Je kan de binaries downloaden van [windows.php.net/download][php-downloads]. Na 
 Om te leren en lokaal te ontwikkelen, kan je de ingebouwde webserver van PHP 5.4+ gebruiken. Hierdoor dien je geen rekening
 te houden met configuratie. 
 Als je liever een "all-in-one" optie hebt, die een volledige webserver en MySQL server bevat, dan zijn tools zoals [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] en [WAMP][wamp] aan te raden.
-Deze tools helpen met ontwikkeling op de Windows en laten je snel starten met ontwikkelen.
+Deze tools helpen met ontwikkeling op Windows en laten je snel starten met ontwikkelen.
 Dit gezegd zijnde zullen deze tools iets anders zijn op een productie omgeving wanneer je ontwikkelingsomgeving Windows is en je productie omgeving Linux.
 
 Wanneer je een productie omgeving op wil zetten op Windows, dan zal IIS7 je de meeste stabiele en meest performate omgeving opleveren. Je kunt [phpmanager][phpmanager] (een gebruikersinterface voor IIS7) gebruiken om de configuratie en het beheer van PHP
