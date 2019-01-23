@@ -1,6 +1,6 @@
 # Welkom
 
-Er is veel oude informatie op het web beschikbaar met verwarrende gebruikers tot gevolg.
+Er is veel oude informatie op het web beschikbaar met verwarde gebruikers tot gevolg.
 Dit zorgt er voor dat nieuwe PHP gebruikers bad practices toepassen of onveilige code implementeren.
 _PHP: The Right Way_ is een gemakkelijk leesbare referentie voor populaire PHP coding standards,
 links naar betrouwbare tutorials en wat bijdragers zien als best practices op het huidige tijdstip.

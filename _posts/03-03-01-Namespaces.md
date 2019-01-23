@@ -9,24 +9,21 @@ Zoals hierboven vermeld, heeft de PHP community veel ontwikkelaars die veel code
 Dit zorgt ervoor dat een library's PHP code eenzelfde klasse kan gebruiken als een ander.
 Wanneer beide libraries gebruikt worden in dezelfde namespace botsen ze en zorgen ze voor problemen.
 
-_Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating
-system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise,
-two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+_Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_; twee bestanden met dezelfde naam, bestaan naast elkaar in verschillende mappen.
+Op die zelfde manier kun je 2 PHP classes met dezelfde naam laten bestaan in verschillende PHP namespaces. Zo simpel is het.
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding
-with other libraries.
+Het is belangerijk dat je je code _namespaced_ opdat andere ontwikkelaars deze kunnen gebruiken zonder dat deze botst met andere libraries.
 
-One recommended way to use namespaces is outlined in [PSR-4][psr4], which aims to provide a standard file, class and
-namespace convention to allow plug-and-play code.
+Een aanbevolen manier om namespaces te gebruiken, wordt uitgelegd in [PSR-4][psr4], die zorgt voor een standaard bestand, class en namespace conventie die plug-and-play code mogelijk maakt.
 
-In October 2014 the PHP-FIG deprecated the previous autoloading standard: [PSR-0][psr0]. Both PSR-0 and PSR-4 are still perfectly usable.  The latter requires PHP 5.3, so many PHP 5.2-only projects implement PSR-0.
+In oktober 2014 heeft PHP-FIG de vorige autoloading-standaard als verouderd gemarkeerd: [PSR-0][psr0].
+Zowel PSR-0 als PSR-4 zijn nog perfect bruikbaar. Het laatste vereist PHP 5.3 waardoor PHP 5.2 projecten PSR-0 implementeren.
 
-If you're going to use an autoloader standard for a new application or package, look into PSR-4.
+Wanneer je gebruik wil maken van een autoloader standaard in een nieuwe applicatie of pakket kun je best PSR-4 bekijken.
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
-* [Read about PSR-4][psr4]
+* [Lees over Namespaces][namespaces]
+* [Lees over PSR-0][psr0]
+* [Lees over PSR-4][psr4]
 
 
 [namespaces]: https://secure.php.net/language.namespaces
