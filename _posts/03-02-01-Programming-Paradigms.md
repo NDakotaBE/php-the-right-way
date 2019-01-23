@@ -28,7 +28,7 @@ Zowel gebruikers gedefinieerde en ingebouwde functies kunnen naar een variable v
 dynamisch opgeropen worden. 
 Functies kunnen ook doorgegevens worden als argumenten aan andere fucties. (Een feature genoemt _Higher-order Functions_) en functies kunnen andere functies teruggeven.
 
-Recursie, een feature dat toelaat dat een functie zichzelf aanroept, wordt ondersteund door de taal, maar de meeste PHP code is gefocused op iteratie.
+Recursie, een feature die toelaat dat een functie zichzelf aanroept, wordt ondersteund door de taal, maar de meeste PHP code is gefocused op iteratie.
 
 Nieuwe anonieme functies (met ondersteuning voor closures) zijn beschikbaar sinds PHP5.3 (2009).
 
