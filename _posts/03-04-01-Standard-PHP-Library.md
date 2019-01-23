@@ -1,16 +1,16 @@
 ---
-title:   Standaard PHP Library
+title:   Standard PHP Library
 isChild: true
 anchor:  standard_php_library
 ---
 
-## Standaard PHP Library {#standard_php_library_title}
+## Standard PHP Library {#standard_php_library_title}
 
 De Standard PHP Library (SPL) is in PHP ingebrepen en voorziet een collectie van klasses en interfaces.
 Deze bestaat voornamelijk uit vaak gebruikte datastructuur klasses (stack, queue, heap, ed) en iterators die over deze datastructuren (of eigen SPL klasses) te overlopen.
 
-* [Read about the SPL][spl]
-* [SPL video course on Lynda.com(Paid)][spllynda]
+* [Lees over SPL][spl]
+* [SPL video cursus op Lynda.com(Paid)][spllynda]
 
 
 [spl]: https://secure.php.net/book.spl
