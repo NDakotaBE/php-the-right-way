@@ -1,6 +1,7 @@
 ---
 anchor: getting_started
+title: Aan de slag gaan
 ---
 
-# Getting Started {#getting_started_title}
+# Aan de slag gaan {#getting_started_title}
 
