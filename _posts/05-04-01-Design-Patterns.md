@@ -5,15 +5,13 @@ anchor:  design_patterns
 
 ## Design Patterns {#design_patterns_title}
 
-When you are building your application it is helpful to use common patterns in your code and common patterns for the
-overall structure of your project. Using common patterns is helpful because it makes it much easier to manage your code
-and lets other developers quickly understand how everything fits together.
+Wanneer je je applicatie aan het bouwen bent is het behulpzaam om gemeenschappelijke patronen in je code en gemeenschappelijke patronen in de opbouw van de structuur van je project door te voeren.
+Door gebruik te maken van deze patronen is het makkelijker om je code te beheren. Het laat andere ontwikkelaars ook toe om sneller te begrijpen hoe alles samen valt.
 
-If you use a framework then most of the higher level code and project structure will be based on that framework, so a
-lot of the pattern decisions are made for you. But it is still up to you to pick out the best patterns to follow in the
-code you build on top of the framework. If, on the other hand, you are not using a framework to build your application
-then you have to find the patterns that best suit the type and size of application that you're building.
+Wanneer je gebruik maakt van een framework zal de project structuur meestal gebaseerd zijn op het framework. Hierdoor zijn de meeste design pattern beslissingen genomen in jou plaats.
+Het is wel nog steeds jou keuze om de beste patronen te kiezen voor de code die jij boven op het framework bouwt.
+Wanneer je echter geen gebruik maakt van een framework om je applicatie te bouwen dan zul je zelf op zoek moeten gaan naar het design pattern die het beste past bij het type en de grootte van de applicatie.
 
-You can learn more about PHP design patterns and see working examples at:
+Je kan meer leren over PHP design patterns en voorbeelden zien op:
 
 <https://designpatternsphp.readthedocs.io/>
