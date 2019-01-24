@@ -6,7 +6,7 @@ anchor:  namespaces
 ## Namespaces {#namespaces_title}
 
 Zoals hierboven vermeld, heeft de PHP community veel ontwikkelaars die veel code maken. 
-Dit zorgt ervoor dat een library's PHP code eenzelfde klasse kan gebruiken als een ander.
+Dit zorgt ervoor dat een libraries PHP code eenzelfde klasse kan gebruiken als een ander.
 Wanneer beide libraries gebruikt worden in dezelfde namespace botsen ze en zorgen ze voor problemen.
 
 _Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_; twee bestanden met dezelfde naam bestaan naast elkaar in verschillende mappen.
