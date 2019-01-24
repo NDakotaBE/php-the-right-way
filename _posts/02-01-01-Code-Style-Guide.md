@@ -6,7 +6,7 @@ anchor: code_style_guide
 
 De PHP community is groot en divers en bestaat uit ontelbare libraries, frameworks en componenten.
 Het is gebruikelijk voor PHP ontwikkelaars om verschillende van deze te kiezen en deze te combineren in een enkel project.
-Het is dus belangerijk dat PHP code een gedeelde code style (zo goed als mogelijk) volgen opdat
+Het is dus belangerijk dat PHP code een gedeelde code style (zo goed als mogelijk) volgen zodat
 ontwikkelaars gemakkelijk verschillende libraries kunnen combineren in hun projecten.
 
 De [Framework Interop Group][fig] heeft een aantal stijl aanbevelingen voorgesteld en goedgekeurd.

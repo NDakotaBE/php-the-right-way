@@ -12,7 +12,7 @@ Wanneer beide libraries gebruikt worden in dezelfde namespace botsen ze en zorge
 _Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_; twee bestanden met dezelfde naam bestaan naast elkaar in verschillende mappen.
 Zo kun je 2 PHP classes met dezelfde naam laten bestaan in verschillende namespaces.
 
-Het is belangerijk dat je je code _namespaced_ opdat andere ontwikkelaars deze kunnen gebruiken zonder dat deze botst met andere libraries.
+Het is belangerijk dat je je code _namespaced_ zodat andere ontwikkelaars deze kunnen gebruiken zonder dat deze botst met andere libraries.
 
 Een aanbevolen manier om namespaces te gebruiken, wordt uitgelegd in [PSR-4][psr4], die zorgt voor een standaard bestand, class en namespace conventie die plug-and-play code mogelijk maakt.
 
