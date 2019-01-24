@@ -111,5 +111,5 @@ This will create a `~/.composer` folder where your global dependencies reside. T
 [Twig]: https://twig.symfony.com/
 [libraries.io]: https://libraries.io/
 [Security Advisories Checker]: https://security.sensiolabs.org/
-[Learn about Composer]: https://getcomposer.org/doc/00-intro.md
+[Lees meer over Composer]: https://getcomposer.org/doc/00-intro.md
 [ComposerSetup]: https://getcomposer.org/Composer-Setup.exe
