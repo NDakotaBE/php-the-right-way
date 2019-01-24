@@ -53,7 +53,7 @@ Dit zal je tonen welke errors de code had alvorens deze (automatisch) opgelost w
 
 Engels heeft de voorkeur voor alle namen van variabelen en code infrastructuur. Commentaar mag geschreven worden in de taal die het gemakkelijkst leestbaar is door alle huidige (en toekomstige) partijen die met deze codebase zullen werken.
 
-Tot slot is [Clean Code PHP][cleancode] een goede bijkomende bron om cleane PHP code te schrijven.
+Tot slot is [Clean Code PHP][cleancode] een goede bijkomende bron om duidelijke PHP code te schrijven.
 
 [fig]: https://www.php-fig.org/
 [psr1]: https://www.php-fig.org/psr/psr-1/
