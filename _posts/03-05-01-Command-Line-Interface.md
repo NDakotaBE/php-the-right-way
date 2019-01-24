@@ -36,8 +36,8 @@ echo "Hallo, $name\n";
 {% endhighlight %}
 
 PHP stelt twee speciale variabelen in, gebaseerd op de argumenten waarmee het script uitgevoerd wordt.
-[`$argc`][argc] is een integer variable dat het *aantal* argumenten bevat en [`$argv`][argv] 
-is een array variable waar alle argument *waarden* in beschikbaar zijn.
+[`$argc`][argc] is een integer variabele dat het *aantal* argumenten bevat en [`$argv`][argv] 
+is een array variabele waar alle argument *waarden* in beschikbaar zijn.
 Het eerste argument is steeds de naam van je PHP script bestand, in dit geval `hallo.php`
 
 De `exit()` functie is gebruikt met een niet-nul nummer om de shell te laten weten dat het commando gefaald heeft.
