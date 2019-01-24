@@ -1,10 +1,10 @@
 ---
-title: Programming Paradigmas
+title: Programming Paradigms
 isChild: true
 anchor:  programming_paradigms
 ---
 
-## Programming Paradigmas {#programming_paradigms_title}
+## Programming Paradigms {#programming_paradigms_title}
 
 PHP is een flexibele, dynamische programeertaal die een verscheidenheid aan programmeertechnieken 
 ondersteunt.
