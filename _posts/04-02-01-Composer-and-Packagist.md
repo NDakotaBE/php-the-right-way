@@ -101,8 +101,7 @@ composer global require phpunit/phpunit
 {% endhighlight %}
 
 Dit maakt een `~/.composer` map aan, waar al je globale dependencies in opgeslagen worden.
-Om deze packages overal beschikbaar te hebben, dien je 
-This will create a `~/.composer` folder where your global dependencies reside. To have the installed` de ~/.composer/vendor/bin` map toe te voegen aan je 
+Om deze packages overal beschikbaar te hebben, dien je de `~/.composer/vendor/bin` map toe te voegen aan je 
 `$PATH` variabele.
 
 * [Lees meer over Composer]
