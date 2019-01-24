@@ -22,11 +22,11 @@ PHP heeft een complete set van object-oriented programming features inclusief on
 
 ### Functional programming
 
-PHP ondersteunt eerste-class functies. Dit wil zeggen dat een functie toegekent kan worden
+PHP ondersteunt First-class functies. Dit wil zeggen dat een functie toegekent kan worden
 aan een variabele. 
 Zowel gebruiker-gedefinieerde als ingebouwde functies kunnen naar een variable verwezen worden en
 dynamisch opgeroepen worden. 
-Functies kunnen ook doorgegeven worden als argumenten aan andere functies (Een feature gekend als _Higher-order Functions_) en functies kunnen andere functies teruggeven.
+Functies kunnen ook doorgegeven worden als argumenten aan andere functies (Een feature gekend als _Higher-Order Functions_) en functies kunnen andere functies teruggeven.
 
 _Recursion_, een feature die toelaat dat een functie zichzelf oproept, wordt ondersteund door de taal, maar de meeste PHP code is gefocused op iteratie.
 

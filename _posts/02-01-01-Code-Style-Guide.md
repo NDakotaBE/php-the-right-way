@@ -13,11 +13,11 @@ De [Framework Interop Group][fig] heeft een aantal stijl aanbevelingen voorgeste
 Niet al deze voorstellen zijn gerelateerd aan code-style, maar diegene die dit wel zijn, zijn de volgende: [PSR-1][psr1], [PSR-2][psr2] en [PSR-4][psr4].
 Deze aanbevelingen zijn enkel een set met regels die vele projecten zoals Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK,
 FuelPHP, Lithium en dergelijke overnemen.
-Je kunt deze gebruiken voor je eigen projecten of je eigen personlijke stijl gebruiken.
+Je kunt deze gebruiken voor je eigen projecten of je eigen persoonlijke stijl gebruiken.
 
 Je kan best PHP code schrijven die een bestaande standaard implementeert.
-Dit kan iedere combinatie van PSR's zijn of een coding standards uitgegeven door PEAR of Zend.
-Dit zorgt er dan voor dat andere ontwikkelaars je code gemakklijk kunnen lezen en bewerken.
+Dit kan iedere combinatie van PSR's zijn of een coding standard uitgegeven door PEAR of Zend.
+Dit zorgt er dan voor dat andere ontwikkelaars je code gemakkelijk kunnen lezen en bewerken.
 Dit zorgt er ook voor dat applicaties die veel externe code implementeren consequent kunnen zijn en blijven.
 
 * [Lees over PSR-1][psr1]
@@ -51,7 +51,7 @@ Dit zal je tonen welke errors de code had alvorens deze (automatisch) opgelost w
 
     php-cs-fixer fix -v --level=psr2 bestand.php
 
-Engels heeft de voorkeur voor alle namen van variabelen en code infrastructuur. Commentaar mag geschreven worden in de taal die het gemakkelijkst leestbaar is door alle huidige (en toekomstige) partijen die met deze codebase zullen werken.
+Engels heeft de voorkeur voor de namen van variabelen en code infrastructuur. Commentaar mag geschreven worden in de taal die het gemakkelijkst leestbaar is door alle huidige (en toekomstige) partijen die met deze codebase zullen werken.
 
 Tot slot is [Clean Code PHP][cleancode] een goede bijkomende bron om duidelijke PHP code te schrijven.
 
