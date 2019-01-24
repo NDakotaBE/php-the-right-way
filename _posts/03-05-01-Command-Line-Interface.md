@@ -5,13 +5,14 @@ anchor:  command_line_interface
 
 ## Command Line Interface {#command_line_interface_title}
 
-PHP is gecreëerd om web applicaties mee te ontwikkelen, maar is ook interessant om command line interface (CLI) applicaties.
-Command line PHP programma's kunnen helpen om veel voorkomende taken, zoals testing, deployment en applicatie administratie, te automatiseren.
+PHP is gecreëerd om web applicaties mee te ontwikkelen, maar is ook interessant om command line interface (CLI) applicaties te ontwikkelen.
+Command line PHP programma's kunnen helpen om veel voorkomende taken, zoals testing, deployment en applicatie administratie te automatiseren.
 
-CLI PHP programma's zijn krachtomg omdat deze de code van je app direct kunnen gebruiken, zonder dat er een "veilige" web GUI voor gemaakt moet worden.
+CLI PHP programma's zijn krachtig omdat deze de code van je applicatie direct kunnen gebruiken 
+zonder dat er een "veilige" web GUI voor gemaakt moet worden.
 Wees er zeker van om CLI PHP scripts **niet** in de publieke directory van je project te plaatsen.
 
-Probeer PHP uit te voeren van de commandline:
+PHP uit voeren vanaf de commandline:
 
 {% highlight console %}
 > php -i
@@ -43,7 +44,7 @@ Het eerste argument is steeds de naam van je PHP script bestand, in dit geval `h
 De `exit()` functie is gebruikt met een niet-nul nummer om de shell te laten weten dat het commando gefaald heeft.
 Gebruikelijke exit codes kan je [hier][exit-codes] vinden.
 
-Om ons script uit te voeren vanaf de commandline kun het volgende uitvoeren:
+Om ons script uit te voeren vanaf de commandline kun je het volgende uitvoeren:
 
 {% highlight console %}
 > php hallo.php
