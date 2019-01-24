@@ -5,19 +5,20 @@ anchor: code_style_guide
 # Code Style Guide {#code_style_guide_title}
 
 De PHP community is groot en divers en bestaat uit ontelbare libraries, frameworks en componenten.
-Het is gebruikelijk voor PHP ontwikkelaars om verschillende van deze te kiezenen deze te combineren in een enkel project.
+Het is gebruikelijk voor PHP ontwikkelaars om verschillende van deze te kiezen en deze te combineren in een enkel project.
 Het is dus belangerijk dat PHP code een gedeelde code style (zo goed als mogelijk) volgen opdat
 ontwikkelaars gemakkelijk verschillende libraries kunnen combineren in hun projecten.
 
-De [Framework Interop Group][fig] heeft een aantal stijl aanbevelingen voorgeseld en goedgekeurd.
+De [Framework Interop Group][fig] heeft een aantal stijl aanbevelingen voorgesteld en goedgekeurd.
 Niet al deze voorstellen zijn gerelateerd aan code-style, maar diegene die dit wel zijn, zijn de volgende: [PSR-1][psr1], [PSR-2][psr2] en [PSR-4][psr4].
-Deze aanbevelingen zijn enkel set met regels die vele projecten zoals Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK,
+Deze aanbevelingen zijn enkel een set met regels die vele projecten zoals Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK,
 FuelPHP, Lithium en dergelijke overnemen.
 Je kunt deze gebruiken voor je eigen projecten of je eigen personlijke stijl gebruiken.
 
-Idealiter schrijf je PHP code die een bestaande standaard implementeerd. Dit kan iedere combinatie van PSR's zijn of een coding standards uitgegeven door PEAR of Zend.
+Je kan best PHP code schrijven die een bestaande standaard implementeert.
+Dit kan iedere combinatie van PSR's zijn of een coding standards uitgegeven door PEAR of Zend.
 Dit zorgt er dan voor dat andere ontwikkelaars je code gemakklijk kunnen lezen en bewerken.
-Dit zorgt er ook voor dat applicaties die veel externe code implementeren consisten kunnen zijn en blijven.
+Dit zorgt er ook voor dat applicaties die veel externe code implementeren consequent kunnen zijn en blijven.
 
 * [Lees over PSR-1][psr1]
 * [Lees over PSR-2][psr2]
@@ -27,20 +28,20 @@ Dit zorgt er ook voor dat applicaties die veel externe code implementeren consis
 
 Je kunt [PHP_CodeSniffer][phpcs] gebruiken om je code te controleren tegenover deze aanbevelingen en plugins voor teksteditors zoals [Sublime Text][st-cs] om real-time feedback te verkrijgen.
 
-Je kan de layout van code ook aanpassen door gebruik te maken van onderstaande tools:
+Je kan de lay-out van code ook aanpassen door gebruik te maken van onderstaande tools:
 
-- Een daarvan is [PHP Coding Standards Fixer][phpcsfixer] die een goed geteste codebase heeft.
-- Ook de [PHP Code Beautifier and Fixer][phpcbf] tool die ingebrepen is met PHP_CodeSniffer kan gebruikt worden om je code aan te passen volgens deze aanbevelingen.
+- [PHP Coding Standards Fixer][phpcsfixer] heeft een goed geteste codebase.
+- [PHP Code Beautifier and Fixer][phpcbf] is een tool die ingebrepen is met PHP_CodeSniffer en kan gebruikt worden om je code aan te passen volgens deze aanbevelingen.
 
-Je kan phpcs manueel vanaf commandline/shell uitvoeren door onderstaand commando uit te voeren:
+Je kan phpcs manueel vanaf commandline/shell uitvoeren door het onderstaande commando uit te voeren:
 
     phpcs -sw --standard=PSR2 bestand.php
 
 De output van dit commando zal je fouten tonen en uitleggen hoe je deze oplost.
-Het kan ook interessant zijn om dit commando toe te voegen aan een git hook.
+Het kan ook interessant zijn om dit commando toe te voegen aan een [git hook].
 Hierdoor kun je branches beschermen tegen aanpassingen die ingaan tegen de gekozen standaard.
 
-Wanneer je PHP_CodeSniffer gebruikt, kun je ook automatisch code layout problemen oplossen door gebruik te maken van 
+Wanneer je PHP_CodeSniffer gebruikt, kun je ook automatisch code lay-out problemen oplossen door gebruik te maken van 
 [PHP Code Beautifier and Fixer][phpcbf].
 
     phpcbf -w --standard=PSR2 bestand.php
@@ -65,3 +66,4 @@ Tot slot is [Clean Code PHP][cleancode] een goede bijkomende bron om cleane PHP 
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
 [phpcsfixer]: https://cs.sensiolabs.org/
 [cleancode]: https://github.com/jupeter/clean-code-php
+[git hook]: https://git-scm.com/book/uz/v2/Customizing-Git-Git-Hooks
