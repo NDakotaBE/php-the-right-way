@@ -16,8 +16,7 @@ Het is belangerijk dat je je code _namespaced_ zodat andere ontwikkelaars deze k
 
 Een aanbevolen manier om namespaces te gebruiken, wordt uitgelegd in [PSR-4][psr4], die zorgt voor een standaard bestand, class en namespace conventie die plug-and-play code mogelijk maakt.
 
-In oktober 2014 heeft PHP-FIG de vorige autoloading-standaard als verouderd gemarkeerd: [PSR-0][psr0].
-Zowel PSR-0 als PSR-4 zijn nog perfect bruikbaar. Het laatste vereist PHP 5.3 waardoor PHP 5.2 projecten PSR-0 implementeren.
+In oktober 2014 heeft PHP-FIG de vorige autoloading-standaard, [PSR-0][psr0], als verouderd gemarkeerd. Deze standaard wordt dan ook vooral gebruikt in projecten waar PHP 5.2 of minder gebruikt wordt.
 
 Wanneer je gebruik wil maken van een autoloader standaard in een nieuwe applicatie of pakket kun je best PSR-4 bekijken.
 
