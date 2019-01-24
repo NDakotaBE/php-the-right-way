@@ -12,27 +12,28 @@ Ze is drastisch geëvolueerd over de jaren heen, in het bijzonder door de toevoe
 solide object-oriented model in PHP5.0 (2004), anonieme functies en namespaces in PHP5.3 (2009) 
 en traits in PHP5.4 (2012).
 
-### Object-oriented programmeren
+### Object-oriented programming
 
 PHP heeft een complete set van object-oriented programming features inclusief ondersteuning voor 
-klasses, abstracte klasses, interfaces, inheritance, constructors, klonen, exceptions en meer
+'classes', 'abstract classes', 'interfaces', 'inheritance', 'constructors', 'cloning', 'exceptions' en meer
 
 * [Lees over Object-oriented PHP][oop]
 * [Lees over Traits][traits]
 
-### Functional programmeren
+### Functional programming
 
-PHP ondersteund eerste-class functies. Dit wil zeggen dat een functie geassigneerd kan worden
+PHP ondersteunt eerste-class functies. Dit wil zeggen dat een functie toegekent kan worden
 aan een variabele. 
-Zowel gebruikers gedefinieerde en ingebouwde functies kunnen naar een variable verwezen worden en
-dynamisch opgeropen worden. 
-Functies kunnen ook doorgegevens worden als argumenten aan andere fucties. (Een feature genoemt _Higher-order Functions_) en functies kunnen andere functies teruggeven.
+Zowel gebruiker-gedefinieerde als ingebouwde functies kunnen naar een variable verwezen worden en
+dynamisch opgeroepen worden. 
+Functies kunnen ook doorgegeven worden als argumenten aan andere functies (Een feature gekend als _Higher-order Functions_) en functies kunnen andere functies teruggeven.
 
-Recursie, een feature die toelaat dat een functie zichzelf aanroept, wordt ondersteund door de taal, maar de meeste PHP code is gefocused op iteratie.
+_Recursion_, een feature die toelaat dat een functie zichzelf oproept, wordt ondersteund door de taal, maar de meeste PHP code is gefocused op iteratie.
 
-Nieuwe anonieme functies (met ondersteuning voor closures) zijn beschikbaar sinds PHP5.3 (2009).
+Nieuwe anonieme functies met ondersteuning voor closures zijn beschikbaar sinds PHP5.3 (2009).
 
-PHP 5.4 voegde de mogelijk om closures vast te hangen aan de scope van een object en voegde ook ondersteuning voor callabes toe, opdat deze gebruikt kunnen worden met anonieme functies in de meeste gevallen.
+PHP 5.4 voegde de mogelijk toe om closures vast te hangen aan de scope van een object.
+Alsook ondersteuning voor callables, zodat deze gebruikt kunnen worden met anonieme functies (in de meeste gevallen).
 
 * Lees verder over [functioneel programmeren in PHP](/pages/Functional-Programming.html)
 * [Lees over Anonymous Functions][anonymous-functions]
@@ -41,13 +42,13 @@ PHP 5.4 voegde de mogelijk om closures vast te hangen aan de scope van een objec
 * [Lees over Callables][callables]
 * [Lees over dynamically invoking functions with `call_user_func_array()`][call-user-func-array]
 
-### Meta programmeren
+### Meta programming
 
-PHP ondersteund verschillende manieren van meta-programmeren door mechanismes zoals de 
+PHP ondersteunt verschillende manieren van meta-programming door mechanismes zoals de 
 Reflections API en Magic Methods.
 Er zijn veel Magic Methods beschikbaar zoals `__get()`, `__set()`, `__clone()`, `__toString()`, 
-`__invoke()`, ed. die ontwikkelaars toelaten om aanpassingen door te voeren in de gedraging van 
-een klasse.
+`__invoke()`, ed. die ontwikkelaars toelaten om aanpassingen door te voeren in het standaard 
+gedrag van een klasse.
 Ruby ontwikkelaars zeggen vaak dat PHP de `method_missing` functie mist, maar deze is beschikbaar 
 als  `__call()` en `__callStatic()`.
 

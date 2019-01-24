@@ -9,8 +9,8 @@ Zoals hierboven vermeld, heeft de PHP community veel ontwikkelaars die veel code
 Dit zorgt ervoor dat een library's PHP code eenzelfde klasse kan gebruiken als een ander.
 Wanneer beide libraries gebruikt worden in dezelfde namespace botsen ze en zorgen ze voor problemen.
 
-_Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_; twee bestanden met dezelfde naam, bestaan naast elkaar in verschillende mappen.
-Op die zelfde manier kun je 2 PHP classes met dezelfde naam laten bestaan in verschillende PHP namespaces. Zo simpel is het.
+_Namespaces_ lossen dit probleem op. Zoals beschreven in de PHP referentie kunnen namespaces vergeleken worden met operating system mappen die files _namespacen_; twee bestanden met dezelfde naam bestaan naast elkaar in verschillende mappen.
+Zo kun je 2 PHP classes met dezelfde naam laten bestaan in verschillende namespaces.
 
 Het is belangerijk dat je je code _namespaced_ opdat andere ontwikkelaars deze kunnen gebruiken zonder dat deze botst met andere libraries.
 

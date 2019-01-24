@@ -28,7 +28,7 @@ Om dit te testen maken we een bestand aan: `hallo.php` zoals hieronder.
 {% highlight php %}
 <?php
 if ($argc !== 2) {
-    echo "Gebruik: php hallo.php [name].\n";
+    echo "Gebruik: php hallo.php [naam].\n";
     exit(1);
 }
 $name = $argv[1];
@@ -43,17 +43,17 @@ Het eerste argument is steeds de naam van je PHP script bestand, in dit geval `h
 De `exit()` functie is gebruikt met een niet-nul nummer om de shell te laten weten dat het commando gefaald heeft.
 Gebruikelijke exit codes kan je [hier][exit-codes] vinden.
 
-To run our script, above, from the command line:
+Om ons script uit te voeren vanaf de commandline kun het volgende uitvoeren:
 
 {% highlight console %}
-> php hello.php
-Usage: php hello.php [name]
-> php hello.php world
-Hello, world
+> php hallo.php
+Usage: php hallo.php [naam]
+> php hallo.php wereld
+Hallo, wereld
 {% endhighlight %}
 
 
- * [Learn about running PHP from the command line][php-cli]
+ * [Lees meer over PHP in CLI][php-cli]
 
 [phpinfo]: https://secure.php.net/function.phpinfo
 [cli-options]: https://secure.php.net/features.commandline.options
