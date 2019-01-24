@@ -51,7 +51,7 @@ Dit zal je tonen welke errors de code had alvorens deze (automatisch) opgelost w
 
     php-cs-fixer fix -v --level=psr2 bestand.php
 
-Engels heeft voorkeur voor alle namen van variablen en code infrastructuur. Commentaar mag geschreven worden in de taal die het gemakkelijkst leestbaar is door alle huidige (en toekomstige) partijen die met deze codebase zullen werken.
+Engels heeft de voorkeur voor alle namen van variabelen en code infrastructuur. Commentaar mag geschreven worden in de taal die het gemakkelijkst leestbaar is door alle huidige (en toekomstige) partijen die met deze codebase zullen werken.
 
 Tot slot is [Clean Code PHP][cleancode] een goede bijkomende bron om cleane PHP code te schrijven.
 
