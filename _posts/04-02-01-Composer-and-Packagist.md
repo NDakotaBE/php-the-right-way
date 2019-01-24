@@ -7,7 +7,7 @@ anchor:  composer_and_packagist
 ## Composer en Packagist {#composer_and_packagist_title}
 
 Composer is de aangeraden dependency manager voor PHP. Lijst je projects dependencies op in een `composer.json` bestand.
-Hierna kan Composer, na het invoeren van een aantal simpele commandos, automatisch je projects dependencies ophalen en autoloading instellen voor je.
+Hierna kan Composer, na het invoeren van een aantal simpele commando's, automatisch je projects dependencies ophalen en autoloading instellen voor je.
 Composer valt te vergelijken met NPM in node.js of Bundler bij Ruby.
 
 Er is een verscheidenheid aan PHP libraries die compatibel zijn met Composer en dus klaar zijn om te gebruiken in je project.
@@ -16,8 +16,7 @@ Deze "packages" worden opgelijst op [Packagist], de officiële repository voor C
 ### Hoe Composer installeren
 
 De veiligste manier om composer te downloaden is door de [officiële instructies te volgen](https://getcomposer.org/download/).
-Deze zal verifiëren ofdat de installer niet corrupt of aangepast is.
-De installer installeert een `composer.phar` binary in je _huidige working directory_.
+Deze zal verifiëren of de installer niet corrupt of aangepast is en installeert een `composer.phar` binary in je _huidige working directory_.
 
 We bevelen echter aan om Composer *globaal* te installeren (bijvoorbeeld een kopie in `/usr/local/bin`). Om dit te doen kun je gebruik maken van het onderstaande commando:
 
@@ -25,16 +24,16 @@ We bevelen echter aan om Composer *globaal* te installeren (bijvoorbeeld een kop
 mv composer.phar /usr/local/bin/composer
 {% endhighlight %}
 
-**Let op:** Als het bovenstaande commando faalt, door rechten, plaats hier `sudo` voor.
+**Let op:** Als het bovenstaande commando faalt, door rechten, plaats je hier `sudo` voor.
 
-Om vanuit je _working directory_ composer uit te voeren kun je `php composer.phar` uit voeren.
-Wanneer deze globaal geinstalleerd is, kun je dit simpelweg doen door `composer` te gebruiken.
+Om vanuit je _working directory_ composer te gebruiken kun je `php composer.phar` uitvoeren.
+Wanneer deze globaal geïnstalleerd is, kun je dit simpelweg doen door `composer` te gebruiken.
 
 #### Installatie (Windows)
 
-Voor Windows gebruikers is de makkelijkste manier om te starten met Composer gebruik maken van de 
-[ComposerSetup] installer.
-Deze voert een globale installatie uit en stel het `$PATH` in, waardoor je `composer` kan gebruiken vanuit elke directory op de commandline.
+
+Als Windows gebruiker is de installatie van composer het eenvoudigst door de [ComposerSetup] te gebruiken.
+Deze voert een globale installatie uit en stelt het `$PATH` in, waardoor je `composer` kan gebruiken vanuit elke directory op de commandline.
 
 ### Hoe dependencies installeren en beheren
 
@@ -47,9 +46,10 @@ Hieronder vind je een voorbeeld om [Twig] toe te voegen als dependency aan je pr
 composer require twig/twig:^2.0
 {% endhighlight %}
 
-Een andere optie is het gebruik van het commando `composer init`.
-Dit commando gidst je door het aanmaken van een volledig `composer.json` bestand voor jou project.
-Welke manier je ook verkiest, eenmaal je een `composer.json` bestand aangemaakt hebt, kun je Composer opdracht geven alle project-dependencies te downloaden en installeren.
+Een andere optie is het commando `composer init`.
+Dit commando gidst je door het aanmaken van een volledig `composer.json` bestand voor je project.
+
+Welke manier je ook verkiest, eenmaal een `composer.json` bestand beschikbaar is, kun je Composer opdracht geven alle project-dependencies te downloaden en installeren.
 De installatie van deze bestanden wordt uitgevoerd in de `vendor/` map van je project.
 
 Dit is ook van toepassing voor alle projecten waar een `composer.json` bestand in beschikbaar is.

@@ -1,40 +1,38 @@
 ---
-title:   Working with UTF-8
+title:   Werken met UTF-8
 isChild: true
 anchor:  php_and_utf8
 ---
 
-## Working with UTF-8 {#php_and_utf8_title}
+## Werken met UTF-8 {#php_and_utf8_title}
 
-_This section was originally written by [Alex Cabal](https://alexcabal.com/) over at
-[PHP Best Practices](https://phpbestpractices.org/#utf-8) and has been used as the basis for our own UTF-8 advice_.
+_Deze sectie is oorspronkelijk geschreven door [Alex Cabal](https://alexcabal.com/) van 
+[PHP Best Practices](https://phpbestpractices.org/#utf-8) en is gebruikt als basis van dit UTF-8 advies_.
 
-### There's no one-liner. Be careful, detailed, and consistent.
+### Er is geen one-liner. Wees voorzichtig, gedetaileerd en consequent.
 
-Right now PHP does not support Unicode at a low level. There are ways to ensure that UTF-8 strings are processed OK,
-but it's not easy, and it requires digging in to almost all levels of the web app, from HTML to SQL to PHP. We'll aim
-for a brief, practical summary.
+Op dit moment ondersteund PHP geen Unicode op het basis niveau. 
+Er zijn manieren beschikbaar die er voor zorgen dat UTF-8 strings correct verwerkt worden.
+Deze zijn echter niet evident en vereisen een aantal aanpassingen doorheen alle niveaus van een web-app, van HTML tot SQL tot PHP.
+We proberen hieronder een korte en praktische samenvatting te maken.
 
-### UTF-8 at the PHP level
+### UTF-8 op het niveua van PHP
 
-The basic string operations, like concatenating two strings and assigning strings to variables, don't need anything
-special for UTF-8. However, most string functions, like `strpos()` and `strlen()`, do need special consideration. These
-functions often have an `mb_*` counterpart: for example, `mb_strpos()` and `mb_strlen()`. These `mb_*` strings are made
-available to you via the [Multibyte String Extension], and are specifically designed to operate on Unicode strings.
+De basis string operaties, zoals het samenvoegen van twee strings en het assignen van strings aan variabelen hebben geen speciale behandeling nodig voor UTF-8.
+Het is echter wel zo dat de meeste string functies, zoals `strpos()` en `strlen()`, extra overweging vereisen.
+Deze functies hebben meestal een `mb_*` variant. Bijvoorbeeld `mb_strpos()` en `mb_strlen()`.
+Die functies worden beschikbaar gemaakt door de [Multibyte String Extensie] en is specifiek gemaakt om Unicode strings te verwerken.
 
-You must use the `mb_*` functions whenever you operate on a Unicode string. For example, if you use `substr()` on a
-UTF-8 string, there's a good chance the result will include some garbled half-characters. The correct function to use
-would be the multibyte counterpart, `mb_substr()`.
+Je moet gebruik maken van de `mb_*` functies wanneer je werkt met een Unicode string. Wanneer je bijvoorbeeld `substr()` gebruikt op een UTF-8 string bestaat de kans dat het resultaat een aantal vreemde karakters zal bevatten.
+De correcte functie om hier te gebruiken is dan de `mb_substr()` functie.
 
-The hard part is remembering to use the `mb_*` functions at all times. If you forget even just once, your Unicode
-string has a chance of being garbled during further processing.
+Het moeilijkste deel is dan ook om de `mb_*` functies altijd te gebruiken. Wanneer je dit ook maar één keer vergeet, bestaat de kans de een Unicode string onleesbaar wordt voor verdere verwerking.
 
-Not all string functions have an `mb_*` counterpart. If there isn't one for what you want to do, then you might be out
-of luck.
+Niet alle string functies hebben een `mb_*` tegenhanger. Als dit het geval is dan heb je pech.
 
-You should use the `mb_internal_encoding()` function at the top of every PHP script you write (or at the top of your
-global include script), and the `mb_http_output()` function right after it if your script is outputting to a browser.
-Explicitly defining the encoding of your strings in every script will save you a lot of headaches down the road.
+Je dient ook gebruik te maken van de `mb_internal_encoding()` functie aan het begin van elk van je PHP scripts te plaatsen (of aan het begin van je globaal include script).
+Ook de `mb_http_output()` functie is vereist net voor je output naar de browser stuurt.
+Het expliciet definiëren van de encoding van je strings in elk script zal veel problemen verhelpen.
 
 Additionally, many PHP functions that operate on strings have an optional parameter letting you specify the character
 encoding. You should always explicitly indicate UTF-8 when given the option. For example, `htmlentities()` has an
@@ -44,7 +42,7 @@ Finally, If you are building a distributed application and cannot be certain tha
 enabled, then consider using the [patchwork/utf8] Composer package. This will use `mbstring` if it is available, and
 fall back to non UTF-8 functions if not.
 
-[Multibyte String Extension]: https://secure.php.net/book.mbstring
+[Multibyte String Extensie]: https://secure.php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 at the Database level
