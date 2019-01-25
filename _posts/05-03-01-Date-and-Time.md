@@ -10,8 +10,8 @@ PHP heeft een klasse DateTime die je helpt met het lezen, schrijven, vergelijken
 Er zijn veel datum- en tijdgerelateerde functies beschikbaar in PHP naast DateTime, maar deze voorziet een object-oriented interface voor de meeste gevallen.
 Het handelt tijdzones af, maar dit is niet het doel van deze korte inleiding.
 
-Om te starten met DateTime kun je een datum en tijds string converteren naar een object met de `createFromFormat()` methode.
-Je kunt ook gebruik maken van `new DateTime`om de huidige datum en tijd te verkrijgen. Door hierna gebruik te maken van de `format()` methode kun je een DateTime object omzetten naar een string die bruikbaar is voor output.
+Om te starten met DateTime kun je een datum en tijd string converteren naar een object met de `createFromFormat()` methode.
+Je kunt ook gebruik maken van `new DateTime` om de huidige datum en tijd te verkrijgen. Door hierna gebruik te maken van de `format()` methode kun je een DateTime object omzetten naar een string die bruikbaar is voor output.
 
 {% highlight php %}
 <?php
@@ -21,9 +21,9 @@ $start = DateTime::createFromFormat('d. m. Y', $raw);
 echo 'Start datum: ' . $start->format('Y-m-d') . "\n";
 {% endhighlight %}
 
-Rekenen met DateTime is ook mogelijk met de DateInterval klasse. DateTime stelt methodes zoals `add()` en `sub()` beschikbaar die een DateInterval aannemen als argument.
+Rekenen met DateTime is ook mogelijk met de DateInterval class. DateTime stelt methodes zoals `add()` en `sub()` beschikbaar die een DateInterval aannemen als argument.
 Schrijf geen code die hetzelfde aantal seconden per dag verwacht, aangezien mechanismes zoals zomeruur/winteruur of wisselen van tijdzones dit patroon zullen verbreken.
-Gebruike DateIntervals in de plaats.
+Gebruik DateIntervals in de plaats.
 Om het verschil tussen datums te bereken kun je de `diff()` methode gebruiken.
 Deze zal een nieuw DateInterval object teruggeven die je gemakkelijk kan weergeven.
 
@@ -47,13 +47,13 @@ if ($start < $end) {
 }
 {% endhighlight %}
 
-Een laatste voorbeeld geef weer hoe je de DatePeriod klasse kan gebruiken. 
+Een laatste voorbeeld geeft weer hoe je de DatePeriod class kan gebruiken. 
 Deze wordt gebruikt om over terugkerende events te lopen/itereren.
 DatePeriod neemt 2 verschillende DateTime objecten in, start en eind, en een interval waarvoor het alle events tussen beide zal teruggeven.
 
 {% highlight php %}
 <?php
-// output all thursdays between $start and $end
+// Geef alle donderdagen tussen $start en $end
 $periodInterval = DateInterval::createFromDateString('first thursday');
 $periodIterator = new DatePeriod($start, $periodInterval, $end, DatePeriod::EXCLUDE_START_DATE);
 foreach ($periodIterator as $date) {
@@ -62,7 +62,7 @@ foreach ($periodIterator as $date) {
 }
 {% endhighlight %}
 
-Een populaire PHP API extensie is [Carbon](https://carbon.nesbot.com/). Het laat alles toe wat mogelijk is in de DateTime klasse, waardoor je weinig aanpassingen dient te doen, en voegt ook extra features toe zoals ondersteuning voor Localisatie, meer opties om op te tellen, af te trekken en DateTime objecten op te maken. 
+Een populaire PHP API extensie is [Carbon](https://carbon.nesbot.com/). Het laat alles toe wat mogelijk is in de DateTime class waardoor je weinig aanpassingen dient te doen en voegt ook extra features toe zoals ondersteuning voor localisatie, meer opties om op te tellen, af te trekken en DateTime objecten op te maken. 
 Het bied ook mogelijkheden aan om code te testen door datums en tijdstippen te simuleren naar eigen wens.
 
 * [Lees over DateTime][datetime]

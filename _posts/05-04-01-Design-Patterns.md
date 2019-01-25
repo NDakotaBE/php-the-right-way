@@ -5,7 +5,7 @@ anchor:  design_patterns
 
 ## Design Patterns {#design_patterns_title}
 
-Wanneer je je applicatie aan het bouwen bent is het behulpzaam om gemeenschappelijke patronen in je code en gemeenschappelijke patronen in de opbouw van de structuur van je project door te voeren.
+Wanneer je je applicatie aan het bouwen bent is het behulpzaam om gemeenschappelijke patronen in je code en in de opbouw van de structuur van je project door te voeren.
 Door gebruik te maken van deze patronen is het makkelijker om je code te beheren. Het laat andere ontwikkelaars ook toe om sneller te begrijpen hoe alles samen valt.
 
 Wanneer je gebruik maakt van een framework zal de project structuur meestal gebaseerd zijn op het framework. Hierdoor zijn de meeste design pattern beslissingen genomen in je plaats.
