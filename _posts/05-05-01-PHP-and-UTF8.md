@@ -61,7 +61,7 @@ Bekijk het hoofdstuk "Meer lezen" voor meer informatie
 
 Door gebruik te maken van de `mb_http_output()` functie kunnen we zeker zijn dat je PHP script UTF-8 strings doorgeeft aan de browser.
 
-De browser zal hierna door de HTTP response moet geinformeerd worden dat deze pagina als UTF-8 behandeld moet worden. 
+De browser zal hierna door de HTTP response moet geïnformeerd worden dat deze pagina als UTF-8 behandeld moet worden. 
 Vandaag is het gebruikelijk om de character set mee te geven als HTTP response header zoals in onderstaand voorbeeld:
 
 {% highlight php %}
