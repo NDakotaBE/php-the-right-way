@@ -7,7 +7,7 @@ anchor:  date_and_time
 ## Datum en tijd {#date_and_time_title}
 
 PHP heeft een klasse DateTime die je helpt met het lezen, schrijven, vergelijken of rekenen met datums en tijd.
-Er zijn veel datum en tijds-gerelateerde functies beschikbaar in PHP naast DateTime, maar deze voorziet een object-oriented interface voor de meeste gevallen.
+Er zijn veel datum- en tijdgerelateerde functies beschikbaar in PHP naast DateTime, maar deze voorziet een object-oriented interface voor de meeste gevallen.
 Het handelt tijdzones af, maar dit is niet het doel van deze korte inleiding.
 
 Om te starten met DateTime kun je een datum en tijds string converteren naar een object met de `createFromFormat()` methode.

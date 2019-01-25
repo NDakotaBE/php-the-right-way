@@ -16,7 +16,7 @@ Er zijn manieren beschikbaar die er voor zorgen dat UTF-8 strings correct verwer
 Deze zijn echter niet evident en vereisen een aantal aanpassingen doorheen alle niveaus van een web-app, van HTML tot SQL tot PHP.
 We proberen hieronder een korte en praktische samenvatting te maken.
 
-### UTF-8 op het niveua van PHP
+### UTF-8 op PHP niveau
 
 De basis string operaties, zoals het samenvoegen van twee strings en het assignen van strings aan variabelen hebben geen speciale behandeling nodig voor UTF-8.
 Het is echter wel zo dat de meeste string functies, zoals `strpos()` en `strlen()`, extra overweging vereisen.
@@ -46,17 +46,16 @@ Deze package maakt gebruik van de `mbstring` extensie wanneer deze beschikbaar i
 [Multibyte String Extensie]: https://secure.php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
-### UTF-8 at the Database level
+### UTF-8 op database niveau
 
-If your PHP script accesses MySQL, there's a chance your strings could be stored as non-UTF-8 strings in the database
-even if you follow all of the precautions above.
+Wanneer je PHP script toegang nodig heeft tot MySQL dan bestaat de kans dat je strings opgeslagen wordenals niet UTF-8 strings in de database. Zelfs wanneer je alle raad van hierboven volgt.
 
-To make sure your strings go from PHP to MySQL as UTF-8, make sure your database and tables are all set to the
-`utf8mb4` character set and collation, and that you use the `utf8mb4` character set in the PDO connection string. See
-example code below. This is _critically important_.
+Om zeker te zijn dat de strings in UTF-8 van PHP naar MySQL gaan, dien je je database en tabellen in te stellen met de `utf8mb4` collation en karakters.
+Het is ook belangerijk om in je PDO connection string `utf8mb4` toe te voegen als character set.
+Dit is _enorm belangerijk_.
 
-Note that you must use the `utf8mb4` character set for complete UTF-8 support, not the `utf8` character set! See
-Further Reading for why.
+Zorg er ook voor dat je `utf8mb4` gebruikt voor een complete UTF-8 ondersteuning en niet `utf8`!
+Bekijk het hoofdstuk "Meer lezen" voor meer informatie
 
 ### UTF-8 at the browser level
 
