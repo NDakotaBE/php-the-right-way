@@ -34,13 +34,14 @@ Je dient ook gebruik te maken van de `mb_internal_encoding()` functie aan het be
 Ook de `mb_http_output()` functie is vereist net voor je output naar de browser stuurt.
 Het expliciet definiëren van de encoding van je strings in elk script zal veel problemen verhelpen.
 
-Additionally, many PHP functions that operate on strings have an optional parameter letting you specify the character
-encoding. You should always explicitly indicate UTF-8 when given the option. For example, `htmlentities()` has an
-option for character encoding, and you should always specify UTF-8 if dealing with such strings. Note that as of PHP 5.4.0, UTF-8 is the default encoding for `htmlentities()` and `htmlspecialchars()`.
+Sommige PHP functies, die met strings werken, hebben een optionele parameter die je toelaat om de karakter encoding mee te geven.
+Je dient altijd aan te duiden dat je met UTF-8 werkt, wanneer de optie beschikbaar is.
+De functie `htmlentities()` heeft bijvoorbeeld een optie om karakter encoding mee te geven.
 
-Finally, If you are building a distributed application and cannot be certain that the `mbstring` extension will be
-enabled, then consider using the [patchwork/utf8] Composer package. This will use `mbstring` if it is available, and
-fall back to non UTF-8 functions if not.
+**Let op:** Sinds PHP 5.4.0 is UTF-8 de standaard encoding voor `htmlentities()` en `htmlspecialchars()`.
+
+Wanneer je een applicatie bouwt, die gedistribueerd wordt en je niet zeker kan zijn dat de `mbstring` extensie geladen is, is het interessant om de [patchwork/utf8] Composer package te gebruiken.
+Deze package maakt gebruik van de `mbstring` extensie wanneer deze beschikbaar is en zal anders terugvallen op niet UTF-8 compatibele functies.
 
 [Multibyte String Extensie]: https://secure.php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8

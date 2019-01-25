@@ -49,7 +49,7 @@ composer require twig/twig:^2.0
 Een andere optie is het commando `composer init`.
 Dit commando gidst je door het aanmaken van een volledig `composer.json` bestand voor je project.
 
-Welke manier je ook verkiest, eenmaal een `composer.json` bestand beschikbaar is, kun je Composer opdracht geven alle project-dependencies te downloaden en installeren.
+Welke manier je ook verkiest, eenmaal een `composer.json` bestand beschikbaar is, kun je Composer de opdracht geven om alle project-dependencies te downloaden en te installeren.
 De installatie van deze bestanden wordt uitgevoerd in de `vendor/` map van je project.
 
 Dit is ook van toepassing voor alle projecten waar een `composer.json` bestand in beschikbaar is.
@@ -88,13 +88,13 @@ Dit is een web service die je dependencies kan monitoren en die je een melding z
 
 ### Controle van dependencies op security issues
 
-De [Security Advisories Checker] is een web service en commandline tool die je `composer.lock` file bestuderen. Hierna krijg je een melding of je je dependencies **moet** updaten.
+De [Security Advisories Checker] is een web service en commandline tool die je `composer.lock` file bestudeert. Hierna krijg je een melding of je je dependencies **moet** updaten.
 
 ### Globale dependencies met Composer
 
 Composer kan ook gebruikt worden om globale dependencies en hun binaries te managen.
-Het gebruik hiervan is relatief simpel. Het enige wat je hiervoor moete doen is je commando prefixen met `global`.
-Wanneer je bijvoorbeeld PHPUnit wil installeren en je dient deze globaal beschikbaar te hebben, kun je onderstaand commando gebruiken:
+Het gebruik hiervan is relatief simpel. Het enige wat je hiervoor moet doen is je commando prefixen met `global`.
+Wanneer je bijvoorbeeld PHPUnit wilt installeren en je dient deze globaal beschikbaar te hebben, kun je onderstaand commando gebruiken:
 
 {% highlight console %}
 composer global require phpunit/phpunit
